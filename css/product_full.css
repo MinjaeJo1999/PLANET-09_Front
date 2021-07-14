@@ -1,0 +1,141 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+body{
+    margin:0px;
+}
+.category{
+    color: rgb(192, 192, 192);
+}
+.present{
+    padding-top:5px;
+    color:rgb(175, 200, 214);
+}
+
+*{
+    font-family: 'NanumSquare', sans-serif;
+}
+
+#title{
+    padding:30px;
+    padding-bottom:50px;
+    /*background: red;*/
+    text-align: center;
+}
+
+#imginfo{
+    justify-content: center;
+    /*background:orange;*/
+}
+#info{
+    /*background: white;*/
+    float:left;
+}
+
+@media screen and (min-width:1000px){
+    #imginfo{
+        display: flex;
+        align-items: center;
+    }
+    #mainimg{
+        width:600px;
+        float:left;
+        vertical-align: middle;
+    } 
+    #info{
+        width: 400px;
+    }
+    .content,.content_button{
+        margin-left:30px;
+        padding:10px;
+    }
+    span{
+        display: block;
+    }  
+    .a{
+        color:gray;   
+        font-size:14px;
+        padding-top:12px;
+    }
+    
+    .b{
+        font-size:25px;
+        padding-top:5px;
+    }
+    .c{
+        font-size:14px;
+        padding-top:5px;
+    }
+    .profile{
+        width:50px;
+        border-radius: 25px;
+    }
+    .text{
+        padding-top:10px
+    }
+}
+@media screen and (max-width:1000px){
+    #mainimg{
+        max-width:100%;
+    }
+    #info{
+        width: 100%;
+        padding-top:10px;
+    }   
+    .content{
+        float:left;
+        width:33%;
+    }
+    .content_button{
+        width:400px;
+    }
+    
+    .a{
+        font-size:12px;
+        padding-bottom:5px;
+        color:gray;   
+    }
+    .b{
+        font-size:16px;
+    }
+
+    .c{
+        font-size:12px;
+    }
+    .profile{
+        width:40px;
+        border-radius: 20px;
+    }
+}
+.d{
+    color:rgb(202, 202, 202);
+    font-size:10px;
+}
+
+
+
+
+.profile{
+    float:left;
+    margin-right:20px; 
+}
+
+button{
+    border: 2px solid;
+    margin:3px;
+    border-radius: 10px;
+    height: 50px;
+}
+.participate{
+    border-color: rgb(210, 229, 240);
+    width:55%;
+    background:rgb(210, 229, 240);
+    color:white;
+    font-size: 15px;
+}
+.heart{
+    border-color: rgb(202, 202, 202);
+    width: 15%;
+    color:rgb(202, 202, 202);
+    background: white;
+    font-size:20px;
+}
