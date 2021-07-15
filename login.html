@@ -1,0 +1,43 @@
+<DOCTYPE HTML5>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body width="100%" height="100%">
+      <div class="header">
+        <h1>PLANET-09</h1>
+      </div>
+      <hr width="100%" color="black" />
+    <form class="loginForm">
+      <h2>로그인</h2>
+      <div class="idForm">
+        <input type="text" class="id" placeholder="아이디 입력">
+      </div>
+      <div class="passForm">
+        <input type="password" class="pw" placeholder="비밀번호 입력">
+      </div>
+      <button type="button" class="btn" onclick="log_btn()">
+        LOGIN
+      </button>
+      <div>
+        <a href="#">회원가입</a>
+      </div>
+      <br/>
+      <div class="bottomText" onclick="miss_btn()">
+        <a href="#">아이디를 잊으셨나요?</a>
+      </div>
+      <div class="bottomText" onclick="miss_btn()">
+        <a href="#">비밀번호를 잊으셨나요?</a>
+      </div>
+      <script>
+        let log_btn = () => {
+          alert('#닉네임님 PLANET-09 가입을 환영합니다!')
+      }
+        let miss_btn = () => {
+          alert('planet_09@aaaaa.com으로 문의주시면 빠르게 처리해드리겠습니다.')
+        }
+      </script>
+    </form>
+  </body>
+</html>
